@@ -1,0 +1,200 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	SummonersController: {
+		DisplayName: Summoners Controller
+		Tooltip: Increases the speed at which you can use consumables!
+	}
+
+	CoinSword: {
+		DisplayName: Coin Sword
+		Tooltip: You can see the shimmer.
+	}
+
+	Tyrone: {
+		DisplayName: Tyrone
+		Tooltip: Pretty huge and hard to wield
+	}
+
+	FirstAidKit: {
+		Tooltip: Allows access to PortaNurse Services!
+		DisplayName: First Aid Kit
+	}
+
+	BrightGreenSolution: {
+		Tooltip:
+			'''
+			Used by the Clentaminator
+			Actually spreads the Forest
+			'''
+		DisplayName: Bright Green Solution
+	}
+}
+
+Configs: {
+	ClientConfiguration: {
+		DisplayName: Client Configuration
+		Headers.Utility: "[i:1344] Utility"
+
+		QuickDiscordSafeWarp: {
+			Label: "[i:1326] Quick Discord Safe Warp"
+			Tooltip: Disallows user from warping inside of blocks. (Standard behavior for Rod of Discord)
+		}
+	}
+
+	ServerConfiguration: {
+		DisplayName: Server Configuration
+
+		Headers: {
+			Discord: "[i:1326] Discord"
+			Recipes: "[i:2172] Recipes"
+			CustomItems: "[i:RainysQOL/SummonersController] Custom Items"
+			CrossModPatches: "[i:5114] Cross Mod Patches (WIP)"
+			AccessoryConfig: "[i:1613] Accessories"
+		}
+
+		WebhookMessage: {
+			Label: "[i:904] Webhook Message"
+			Tooltip: The message that sends in the embed.
+		}
+
+		MentionEveryone: {
+			Label: "[i:890] Mention Everyone"
+			Tooltip: Will mention @here by default unless this is enabled.
+		}
+
+		WebhookLink: {
+			Tooltip: The Discord webhook link for the announcer.
+			Label: "[i:85] Webhook Link"
+		}
+
+		WebhookEnabled: {
+			Tooltip: Enables webhook announcements.
+			Label: "[i:1326] Webhook Enabled"
+		}
+
+		ClentaminatorRecipe: {
+			Label: "[i:779] Clentaminator Recipe"
+			Tooltip: Enables recipe for Clentaminator.
+		}
+
+		WarTableRecipe: {
+			Label: "[i:3814] War Table Recipe"
+			Tooltip: Enables recipe for War Table.
+		}
+
+		GreenSolutionRecipe: {
+			Label: "[i:780] Green Solution Recipe"
+			Tooltip: Enables recipe for Green Solution.
+		}
+
+		BootCommandEnabled: {
+			Tooltip: Enables the boot meme command.
+			Label: "[i:54] Boot Command Enabled"
+		}
+
+		CoinSwordEnabled: {
+			Label: "[i:RainysQOL/CoinSword] Coin Sword Enabled"
+			Tooltip: Enables the Coin Sword.
+		}
+
+		ToolGunEnabled: {
+			Label: "[i:2269] Tool Gun Enabled (WIP)"
+			Tooltip: Enables the Tool Gun.
+		}
+
+		TyroneEnabled: {
+			Label: "[i:RainysQOL/Tyrone] Tyrone Enabled"
+			Tooltip: Enables the Tyrone meme item.
+		}
+
+		SummonersControllerEnabled: {
+			Label: "[i:RainysQOL/SummonersController] Summoners Controller Enabled"
+			Tooltip: Enables the Summoners Controller accessory.
+		}
+
+		DarkBlueSolutionRecipe: {
+			Label: "[i:783] Dark Blue Solution Recipe"
+			Tooltip: Enables recipe for Dark Blue Solution.
+		}
+
+		BlueSolutionRecipe: {
+			Label: "[i:781] Blue Solution Recipe"
+			Tooltip: Enables recipe for Blue Solution.
+		}
+
+		WhiteSolutionRecipe: {
+			Label: "[i:5393] White Solution Recipe"
+			Tooltip: Enables recipe for White Solution.
+		}
+
+		EvilSolutionsRecipes: {
+			Label: "[i:782] Evil Solutions Recipes"
+			Tooltip: Enables recipes for Red and Purple Solutions.
+		}
+
+		YellowSolutionRecipe: {
+			Label: "[i:5392] Yellow Solution Recipe"
+			Tooltip: Enables recipe for Yellow Solution.
+		}
+
+		PatchFargosCraftingReworks: {
+			Label: "[i:406] Patch Fargos Crafting Reworks"
+			Tooltip: Reverts Fargo's Souls Mod item crafting recipes back to normal if Calamity x Fargos Soul's Compatability Mod is enabled.
+		}
+
+		ReworkFargosCrafting: {
+			Label: "[i:482] Rework Fargos Crafting"
+			Tooltip: Reworks Fargo's Souls Mod crafting to work with Calamity mod. Lowers souls requiring Auric Bars to Perennial bars, etc.
+		}
+
+		WebhookThumbnailURL: {
+			Label: "[i:3596] Webhook Thumbnail URL"
+			Tooltip: The URL for the Webhook Thumbnail Image.
+		}
+
+		WebhookAuthorImageURL: {
+			Label: "[i:3058] Webhook Author Image URL"
+			Tooltip: The URL for the Webhook Author Image.
+		}
+
+		WebhookColor: {
+			Label: "[i:1884] Webhook Color"
+			Tooltip: The hexadecimal value for the Webhook color.
+		}
+
+		ShieldSlotEnabled: {
+			Label: "[i:3998] Shield Slot Enabled"
+			Tooltip: Enables the Shield Slot.
+		}
+
+		ExtraAccessorySlots: {
+			Label: "[i:216] Extra Accessory Slots"
+			Tooltip: Adds extra accessory slots to the user.
+		}
+
+		WingSlotEnabled: {
+			Label: "[i:3582] Wing Slot Enabled"
+			Tooltip: Enables the Wing Slot.
+		}
+
+		ShoeSlotEnabled: {
+			Label: "[i:5000] Shoe Slot Enabled"
+			Tooltip: Enables the Shot Slot.
+		}
+	}
+}
+
+Keybinds: {
+	QuickDiscord.DisplayName: "[i:1326] Quick Discord"
+	PortaNurse.DisplayName: "[i:58] Porta Nurse"
+}
+
+Buffs: {
+	DNR: {
+		Description: You have been marked as DNR and cannot utilize medical services.
+		DisplayName: DNR
+	}
+}
+
+Projectiles.BrightGreenSolutionProjectile.DisplayName: Bright Green Solution Projectile

@@ -1,0 +1,4 @@
+displayName = Rainy's QOL
+author = cent_rion
+version = 0.30
+homepage = https://discord.gg/j24GnrzgdK

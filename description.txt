@@ -1,0 +1,32 @@
+A small yet feature rich Quality of Life and Utility mod by Rainy.
+Join the Discord server for Mod Update notifications, and to make feature requests!
+https://discord.gg/j24GnrzgdK
+
+Adds:
+
+- Quick Discord Hotkey
+	- Works if rod is in piggy bank, safe, or inventory.
+
+- Discord Webhook Notifier
+	- Notify your server when a multiplayer session is hosted via the -announce chat command!
+	- Enable it in mod configuation and set the message to whatever you like then use -announce password to announce to your discord server.
+
+- Toggleable balanced crafting recipes for uncraftable items.
+	- Clentaminator recipe.
+	- Solution recipes.
+	- War Table recipe.
+
+- Summoners Controller Accessory
+	- Decreases consumable use times when equipped.
+	- Useful for spawning mobs faster with Fargo's Mutant Mod mob summons.
+
+- Porta Nurse
+	- Utilize the Nurses services from a keybind!
+	- Restores full HP, mana, and removes all debuffs.
+	- Has 1 minute cooldown and disables nurse services during it.
+	- Requires item that works in piggy bank, safe, or inventory.
+	- Requires the First Aid Kit to use.
+
+- Accessory Slots
+	- Utilize a Shield, Wing, and Boot Slot!
+	- Add other normal accessory slots. Up to 30.
